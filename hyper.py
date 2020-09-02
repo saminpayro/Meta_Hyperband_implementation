@@ -1,12 +1,13 @@
-#The code can be found at: https://github.com/saminpayro/Meta_Hyperband_implementation
-#Also used another code as reference: Copyright (c) 2017, Zygmunt Zając, https://github.com/zygmuntz/hyperband/blob/master/LICENSE
+#Copyright (c) 2020, Samin Payrosangari, Afshin Sadeghi, Damien Graux, Jens Lehmann
+#All rights reserved.
 
-from common_defs import *
+#Also used another code as reference: Copyright (c) 2017, Zygmunt Zając, https://github.com/zygmuntz/hyperband/blob/master/LICENSE
+#This script uses the cuda-convnet2 in https://github.com/akrizhevsky/cuda-convnet2 as ML model (with minor modification) for hyperparameter optimization, for description please refer to README.txt (Copyright 2014 Google Inc. All rights reserved.)
+
 import configparser as cfg
 import numpy as np
-#from hyperband import Hyperband
-import convnet
-from convnet import *
+import convnet #script from cuda-convnet2
+from convnet import * #script from cuda-convnet2
 import os
 from math import log, ceil
 from meta_hyperband import *
