@@ -33,7 +33,7 @@ class Meta_Hyperband:
 		self.best_loss42 =  np.inf # keeps the validation loss of the best config of brackets 2 and 4
 #----------------------------------------------------------------------------------------------------------------------------
 
-	def run( self, skip_last = 0, dry_run = bracket_indexlse):
+	def run( self, skip_last = 0, dry_run = False):
 		brackets_sequence = [1,4,2,3,0]
 		for bracket_index in range(5):
 			s = brackets_sequence[bracket_index]
