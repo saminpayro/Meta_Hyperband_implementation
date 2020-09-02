@@ -2,7 +2,7 @@
 #All rights reserved.
 
 #Also used another code as reference: Copyright (c) 2017, Zygmunt Zając, https://github.com/zygmuntz/hyperband/blob/master/LICENSE
-#This script uses the cuda-convnet2 in https://github.com/akrizhevsky/cuda-convnet2 as ML model (with minor modification) for hyperparameter optimization, for description please refer to README.txt (Copyright 2014 Google Inc. All rights reserved.)
+#This script uses the cuda-convnet2 in https://github.com/akrizhevsky/cuda-convnet2 as ML model (with minor modification) for hyperparameter optimization, for description please refer to README.txt (https://github.com/akrizhevsky/cuda-convnet2/blob/master/LICENSE)
 
 import configparser as cfg
 import numpy as np
