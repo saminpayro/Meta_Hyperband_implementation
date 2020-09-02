@@ -1,5 +1,7 @@
-#used another code as reference: Copyright (c) 2017, Zygmunt Zając
-#https://github.com/zygmuntz/hyperband/blob/master/LICENSE
+#Copyright (c) 2020, Samin Payrosangari, Afshin Sadeghi, Damien Graux, Jens Lehmann
+#All rights reserved.
+
+#Also used another code as reference: Copyright (c) 2017, Zygmunt Zając, https://github.com/zygmuntz/hyperband/blob/master/LICENSE
 import numpy as np
 from random import random
 from math import log, ceil
